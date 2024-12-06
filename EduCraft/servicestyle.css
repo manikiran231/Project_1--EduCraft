@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 20px 0;
+    background-color: #4A90E2;
+    margin-top: 0;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+
+.nav-links li {
+    margin: 0 12px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    box-shadow: #000000;
+    color: #FFD700;
+    text-decoration: wavy;
+}
+
+.nav-links img{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: -18px;
+    margin-top: -7px;
+    padding-bottom: -10px;
+    margin-right: 870px;
+}
+
+.services {
+    padding: 30px 20px;
+    text-align: center;
+    color: #1b9bbb;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+.p{
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.service-card {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card img {
+    margin-left: 10%;
+    max-width: 120px;  
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.service-card div {
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #1b9bbb;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer img{
+    width: 30px;
+    margin-right: 7px;
+    margin-left: 7px;
+    transition: transform 0.3s ease;
+}
+
+.footer img:hover{
+    transform:scale(1.1);
+}
